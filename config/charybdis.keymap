@@ -41,12 +41,12 @@
 
         sym {
             bindings = <
-&trans        &trans    &trans          &trans           &sys_reset  &bootloader    &trans        &trans        &trans        &trans        &trans    &trans
-&trans        &trans    &kp UP_ARROW    &trans           &trans      &trans         &kp N7        &kp N8        &kp NUMBER_9  &kp NUMBER_0  &kp HOME  &trans
-&trans        &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans        &kp END   &trans
-&kp LEFT_ALT  &trans    &trans          &trans           &kp MINUS   &kp PLUS       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &trans    &trans
-                                        &trans           &trans      &trans         &trans        &trans
-                                                         &trans      &trans         &trans
+&trans        &trans    &trans          &trans           &none      &bootloader    &trans        &trans        &trans        &trans        &trans    &trans
+&trans        &trans    &kp UP_ARROW    &trans           &trans     &trans         &kp N7        &kp N8        &kp NUMBER_9  &kp NUMBER_0  &kp HOME  &trans
+&trans        &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans        &kp END   &trans
+&kp LEFT_ALT  &trans    &trans          &trans           &kp MINUS  &kp PLUS       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &trans    &trans
+                                        &trans           &trans     &trans         &trans        &trans
+                                                         &trans     &trans         &trans
             >;
         };
 
